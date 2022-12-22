@@ -1,0 +1,82 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-3">
+            <div class="card border border-success">
+                <div class="card-body d-flex">
+                    <div>
+                        <img class="rounded-circle" style = 'width:150px;height:150px' src="{%static 'images/kumar.jpg'%}" alt="">
+                    </div>
+                    <div>
+                        <ul>&nbsp
+                            <h6>Name:Ch.N.Kumar</h6>
+                            <h6>Profession:Software Developer</h6>
+                            <h6>Email:chinta.kumar10021@gmail.com</h6>
+                            <h6>Contact:+91 0000000000</h6>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-3">
+            <div class="card border border-warning">
+                <div class="card-body">
+                    <h4>Software Developer</h4>
+                    <hr class="border-primary">
+                    <h6>I am an Aspiring Python Developer.I use to teach Html,Css,JavaScript,
+                        python,Django,Django Rest Framework,Flask,Postgrey Sql,Oracle Sql,Docker,Kubernetes,Github.
+                        I'll provide Campus Recruitment Training,Company Specific Training,Realtime Websites using
+                        django and flask.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <h2>What We Teach!</h2>&nbsp
+    <div class="row">
+         <div class="col-lg-3">
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header">Python</div>
+              <div class="card-body">
+                <h5 class="card-title">Advanced Python Concepts</h5>
+                <p class="card-text">We teach core python advanced python and problem solving skills.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+              <div class="card-header">Django</div>
+              <div class="card-body">
+                <h5 class="card-title">Advanced Django Concepts</h5>
+                <p class="card-text">We teach advanced Django and make them to create websites using django.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header">Flask</div>
+              <div class="card-body">
+                <h5 class="card-title">Advaced Flask Concepts</h5>
+                <p class="card-text">We teach advanced Flask and make them to create websites using Flask.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+              <div class="card-header">SQL</div>
+              <div class="card-body">
+                <h5 class="card-title">Advanced SQL Concepts</h5>
+                <p class="card-text">We teach advanced SQL and make them to write complex queries using SQL.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+{% endblock content %}
